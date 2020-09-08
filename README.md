@@ -15,7 +15,7 @@ but the code is pretty generic.
 
 ## Classes: 
 
-* Map: older for all the data structures for a single map.
+* Map: Holder for all the data structures for a single map.
 * IMapSource: An interface for providing a 2D array of density data to Map. This can be manually authored or generated.
 * MeshGenerator: Builds the background mesh for Map, builds colliders, and communicates with the edge generator
 * MapEdgeGfx: Builds line renderers for the edges of the solid areas
