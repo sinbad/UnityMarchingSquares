@@ -21,15 +21,15 @@ but the code is pretty generic.
 * MapEdgeGfx: Builds line renderers for the edges of the solid areas
 * MapGenerator: Procedurally generates a map of density data which is always traversable, is an IMapSource
   
-  ## How to use
+## How to use
   
-   1. Create a GameObject in your level
-   2. Add the Map and MeshGenerator components to it
-   3. Add a MeshFilter component (this will hold the mesh)
-   4. Add an IMapSource component, e.g. a MapGenerator for a procedural map
-   5. Call Map.RefreshMap
+ 1. Create a GameObject in your level
+ 2. Add the Map and MeshGenerator components to it
+ 3. Add a MeshFilter component (this will hold the mesh)
+ 4. Add an IMapSource component, e.g. a MapGenerator for a procedural map
+ 5. Call Map.RefreshMap
    
- You'll want to tweak materials etc but everything is standard Unity.
+You'll want to tweak materials etc but everything is standard Unity.
    
  
   
